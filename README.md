@@ -12,7 +12,7 @@
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-Keras-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Demo-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-Metrics-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Colab-GPU-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)
+![Colab](https://img.shields.io/badge/Colab-GPU-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)
 
 ![License](https://img.shields.io/github/license/AnkitSaxena-AI/chest-xray-pneumonia-detection?style=flat-square&color=0891b2)
 ![Last commit](https://img.shields.io/github/last-commit/AnkitSaxena-AI/chest-xray-pneumonia-detection?style=flat-square&color=0891b2)
@@ -155,7 +155,7 @@ chest-xray-pneumonia-detection/
 │   └── Pneumonia_Detection_Colab.ipynb   # 📓 Train on Colab GPU (data → model → Grad-CAM)
 ├── app/
 │   ├── app.py                            # 🖥️ Streamlit demo
-│   └── pneumonia_efficientnet.keras      # 🧠 Trained model (add after training)
+│   └── pneumonia_efficientnet.keras      # 🧠 Trained model
 ├── assets/                               # 🖼️ Banner + result figures
 ├── requirements.txt                      # 📦 Dependencies
 ├── STEPS.md                              # ✅ Exact run-it-yourself guide
@@ -180,7 +180,6 @@ chest-xray-pneumonia-detection/
 git clone https://github.com/AnkitSaxena-AI/chest-xray-pneumonia-detection.git
 cd chest-xray-pneumonia-detection
 pip install -r requirements.txt
-# put the trained pneumonia_efficientnet.keras into app/
 streamlit run app/app.py
 ```
 
@@ -212,4 +211,15 @@ See **[`STEPS.md`](STEPS.md)** for the exact, copy-paste runbook.
 
 ## 📄 License
 
-Released under the **MIT License** — see [`LICENSE
+Released under the **MIT License** — see [`LICENSE`](LICENSE).
+
+<div align="center">
+
+---
+
+*Built with TensorFlow/Keras, Grad-CAM & Streamlit · © 2026 Ankit Saxena*
+*Educational project — not for clinical use.*
+
+[⬆ Back to top](#toc)
+
+</div>
