@@ -1,0 +1,9 @@
+# App + analysis dependencies (Colab already has tensorflow & sklearn)
+tensorflow>=2.15
+streamlit>=1.30
+numpy
+pillow
+matplotlib
+seaborn
+scikit-learn
+kaggle
