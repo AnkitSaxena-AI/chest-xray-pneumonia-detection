@@ -1,9 +1,6 @@
-# App + analysis dependencies (Colab already has tensorflow & sklearn)
-tensorflow>=2.15
-streamlit>=1.30
+# Streamlit app / deployment dependencies (CPU inference)
+streamlit
+tensorflow-cpu==2.20.0
 numpy
 pillow
 matplotlib
-seaborn
-scikit-learn
-kaggle
