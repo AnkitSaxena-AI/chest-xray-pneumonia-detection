@@ -22,7 +22,7 @@
 <br/>
 
 [![Open Training in Colab](https://img.shields.io/badge/▶_Train_in-Colab_(GPU)-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/AnkitSaxena-AI/chest-xray-pneumonia-detection/blob/main/notebooks/Pneumonia_Detection_Colab.ipynb)
-[![Run the Demo](https://img.shields.io/badge/🫁_Run_the-Streamlit_Demo-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](#-getting-started)
+[![Run the Demo](https://img.shields.io/badge/🫁_Live-Demo-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://chest-xray-pneumonia-detection-vvgz8gtbniravzkrv2fufx.streamlit.app/)
 
 </div>
 
@@ -134,6 +134,8 @@ Evaluated on the held-out **test set (624 X-rays)** — EfficientNetB0 with fine
 <a id="demo"></a>
 
 ## 🖥️ Demo
+
+**▶ [Try the live demo →](https://chest-xray-pneumonia-detection-vvgz8gtbniravzkrv2fufx.streamlit.app/)** — no install, runs in your browser (upload an X-ray or pick a bundled sample).
 
 The Streamlit app lets you upload any chest X-ray and get a prediction plus a Grad-CAM heatmap.
 
